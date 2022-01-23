@@ -1,0 +1,154 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.body{
+  font-family: 'Montserrat',sans-serif;
+
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+}
+/* Heading */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*Nav bar*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+.navitem{
+  font-family: 'Montserrat-Light';
+  font-size: 1.2rem;
+
+}
+/*download_btn*/
+.download_btn{
+  margin: 5% 3% 5% 0;
+}
+/*Title img*/
+.iphone_img{
+  width: 60%;
+  transform: rotate(25deg);
+  /* right: 20%; */
+  /* position: absolute; */
+}
+/* features*/
+#features{
+
+  background-color: #fff;
+  /* position: relative;
+  z-index: 1; */
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.tick{
+  color:#ef8172 ;
+  margin-bottom: 1rem;
+}
+.tick:hover{
+  color: #ff4c68;
+}
+/* media */
+@media (max-width:989px) {
+  .iphone_img{
+    transform: rotate(0);
+    text-align: center;
+    position: static;
+  }
+  .all{
+    text-align: center;
+  }
+}
+/* testimonial */
+#testimonials{
+  text-align: center;
+
+  background-color:#ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+  padding: 7% 3%;
+  /* padding-bottom: 3%; */
+  text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* carousel */
+
+/* PRICING SECTION */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3%;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* cta */
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+
+  text-align: center;
+}
+.cta_txt{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.cta_btn{
+  margin: 30px 20px ;
+}
+/* fotter */
+#footer{
+  background-color: #fff;
+  text-align: center;
+
+}
+.footer_icon{
+  margin: 20px 10px;
+}
