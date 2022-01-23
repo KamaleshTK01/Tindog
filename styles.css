@@ -106,13 +106,13 @@ p{
 /* press */
 #press{
   background-color: #ef8172;
-  padding: 7% 3%;
+  padding-bottom: 3%;
   /* padding-bottom: 3%; */
-  text-align: center;
+/*   text-align: center; */
 }
 .press-img{
     width: 15%;
-    margin: 20px 20px 50px;
+    padding: 20px 20px 40px;
 }
 /* carousel */
 
